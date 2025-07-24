@@ -10,6 +10,40 @@ const {
     .path(route.path) // finds content/blog/<slug>.md
     .first()
 );
+// if (page.value?.ogImage) {
+//   defineOgImage(page.value?.ogImage); // <-- Nuxt OG Image
+// }
+// Ensure the schema.org is rendered
+// useHead(page.value.head || {}); // <-- Nuxt Schema.org
+// useSeoMeta(page.value.seo || {}); // <-- Nuxt Robots
+// Merge into <head> reactively
+useHead({
+  title: page.value.title,
+  meta: [
+    { name: "description", content: page.value.description },
+    { property: "og:title", content: page.value.title },
+    { property: "og:site_name", content: page.value.title + " - Agora Blog" },
+    { property: "og:description", content: page.value.description },
+    { property: "og:image", content: page.value.thumbnail },
+    { name: "twitter:image", content: page.value.thumbnail },
+    { property: "og:type", content: "article" },
+    { name: "article:published_time", content: page.value.publication_date.toString() },
+  ],
+  link: [{ rel: "canonical", href: `https://your-domain.com${route.path}` }],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: page.value.title,
+        datePublished: page.value.publication_date,
+        image: page.value.thumbnail,
+        description: page.value.description,
+      }),
+    },
+  ],
+});
 </script>
 
 <template>
