@@ -1,14 +1,28 @@
-<script setup>
-// const { data: _post_list } = await useAsyncData("blog", () => queryCollection("blog").all());
-</script>
+<script setup></script>
 
 <template>
-  <main>
-    <ContentList path="/blog" v-slot="{ list }">
-      <NuxtLink :to="'/blog/' + article.slug" v-for="article in list" :key="article._path">
-        <h2>{{ article.title }}</h2>
-        <p>{{ article.description }}</p>
-      </NuxtLink>
-    </ContentList>
+  <main class="max-w-350 m-auto mt-16">
+    <div class="posts-grid mx-4">
+      <ContentList path="/blog" v-slot="{ list }">
+        <NuxtLink class="relative" :to="'/blog/' + article.slug" v-for="article in list" :key="article._path">
+          <div class="relative w-full h-80 rounded-32 overflow-hidden min-w-80">
+            <img :src="article.thumbnail" alt="Blog Thumbnail" class="w-full h-full object-cover absolute z-0" />
+            <div class="gradient-blog h-full flex flex-col justify-end gap-2 px-12 pb-12 text-white relative z-10">
+              <h5 class="style-h5 pb-2">{{ article.publication_date }}</h5>
+              <h2 class="style-h4">{{ article.title }}</h2>
+            </div>
+          </div>
+        </NuxtLink>
+      </ContentList>
+    </div>
   </main>
 </template>
+
+<style>
+.posts-grid {
+  display: grid;
+  /* always 3 columns of equal width */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+</style>
