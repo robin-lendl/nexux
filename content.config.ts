@@ -1,6 +1,5 @@
 // content.config.js
-import { defineContentConfig, defineCollection } from '@nuxt/content'
-import { z } from 'zod'
+import { defineContentConfig, defineCollection, z } from '@nuxt/content'
 
 export default defineContentConfig({
     collections: {
@@ -12,7 +11,7 @@ export default defineContentConfig({
                 description: z.string(),
                 slug: z.string(),
                 tags: z.array(z.string()),
-                image: z.string(),
+                thumbnail: z.string(),
                 publication_date: z
                     .string()
                     .refine((s) => !isNaN(Date.parse(s)), { message: 'Invalid date' })
@@ -21,3 +20,15 @@ export default defineContentConfig({
         })
     }
 })
+// import { defineCollection, defineContentConfig } from '@nuxt/content'
+
+// export default defineContentConfig({
+//     collections: {
+//         docs: defineCollection({
+//             // Load every file inside the `content` directory
+//             source: '**',
+//             // Specify the type of content in this collection
+//             type: 'page'
+//         })
+//     }
+// })
