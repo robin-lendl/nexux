@@ -28,6 +28,7 @@
     --rounded-16: 16px;
     --rounded-8: 8px;
 }
+@layer components {
 html{
     font-size: 16px;
     scroll-behavior: smooth;
@@ -310,4 +311,5 @@ aside {
   background: var(--bg-transparent-5);
   padding: 2rem;
   border-radius: var(--rounded-16);
+}
 }
