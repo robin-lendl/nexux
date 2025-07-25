@@ -6,7 +6,7 @@ const {
   pending,
   error,
 } = await useAsyncData(route.path, () => {
-  return queryCollection("blog").where("publication_date", "<=", todayISO).all();
+  return queryCollection("blog").where("publication_date", "<=", todayISO).order("publication_date", "DESC").all();
 });
 
 function formatGerman(raw) {

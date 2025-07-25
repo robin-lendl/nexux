@@ -6,7 +6,8 @@ thumbnail: "/media/03.jpeg"
 publication_date: "2025-07-18"
 ---
 
-Spiele machen Spaß. Das weiß jedes Kind. Aber Spiele können noch mehr: Sie können beim Lernen helfen. Immer mehr Lehrkräfte setzen deshalb auf sogenannte Gamification im Unterricht. Dabei geht es nicht darum, einfach ein Computerspiel zu spielen. Vielmehr werden spieltypische Elemente in den Lernalltag eingebaut. Das können Punkte, Level, Abzeichen oder Wettbewerbe sein. Ziel ist es, die Motivation zu steigern und das Lernen interessanter zu machen.
+Spiele machen Spaß. Das weiß jedes Kind. Aber Spiele können noch mehr: Sie können beim Lernen helfen.
+Immer mehr Lehrkräfte setzen deshalb auf sogenannte Gamification im Unterricht. Dabei geht es nicht darum, einfach ein Computerspiel zu spielen. Vielmehr werden spieltypische Elemente in den Lernalltag eingebaut. Das können Punkte, Level, Abzeichen oder Wettbewerbe sein. Ziel ist es, die Motivation zu steigern und das Lernen interessanter zu machen.
 
 <div class="cta-wrapper">
     <img src="/media/cta.jpg" alt="CTA Nachhilfe anfragen" class="cta-img" />

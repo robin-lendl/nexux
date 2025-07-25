@@ -3,7 +3,7 @@ title: "Markdown Vorlage"
 description: "Markdown Vorlage"
 slug: "markdown-vorlage"
 thumbnail: "/media/01.jpeg"
-publication_date: "2026-07-25"
+publication_date: "2025-07-25"
 ---
 
 # Heading Level 1
