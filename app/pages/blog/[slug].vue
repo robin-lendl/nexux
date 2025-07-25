@@ -1,22 +1,16 @@
 <script setup>
 const route = useRoute();
+const todayISO = new Date().toISOString().slice(0, 10);
 // fetch exactly one document matching this route’s path
-const {
-  data: page,
-  pending,
-  error,
-} = await useAsyncData(route.path, () =>
-  queryCollection("blog")
-    .path(route.path) // finds content/blog/<slug>.md
-    .first()
-);
-// if (page.value?.ogImage) {
-//   defineOgImage(page.value?.ogImage); // <-- Nuxt OG Image
-// }
-// Ensure the schema.org is rendered
-// useHead(page.value.head || {}); // <-- Nuxt Schema.org
-// useSeoMeta(page.value.seo || {}); // <-- Nuxt Robots
-// Merge into <head> reactively
+const { data: page, pending, error } = await useAsyncData(route.path, () => queryCollection("blog").path(route.path).first());
+
+if (error.value) {
+  throw createError({ statusCode: 500, statusMessage: error.value.message });
+}
+if (!page.value || page.value.publication_date > todayISO) {
+  throw createError({ statusCode: 404 });
+}
+
 useHead({
   title: page.value.title,
   meta: [
@@ -53,7 +47,9 @@ useHead({
       <div class="relative w-full h-100 rounded-32 overflow-hidden mb-8 mt-16">
         <img :src="page.thumbnail" alt="Blog Thumbnail" class="w-full h-full object-cover absolute z-0" />
         <div class="gradient-blog h-full flex flex-col justify-end gap-2 px-12 pb-12 text-white relative z-10">
-          <h5 class="style-h5 pb-2">{{ page.publication_date }}</h5>
+          <time class="style-h5 pb-2" :datetime="page.publication_date.toString()">
+            {{ new Date(page.publication_date).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) }}
+          </time>
           <h1 class="style-h2">{{ page.title }}</h1>
         </div>
       </div>
