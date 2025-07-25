@@ -49,8 +49,9 @@ useHead({
 
 <template>
   <div v-if="pending">Loading posts…</div>
-  <main v-else class="max-w-350 m-auto mt-16">
-    <div class="mx-4 posts-grid">
+  <main v-else class="max-w-310 m-auto">
+    <NavigationMain />
+    <div class="mx-4 pt-4 posts-grid">
       <NuxtLink v-for="article in posts" :key="article.slug" :to="'/blog/' + article.slug" class="relative">
         <div class="relative w-full h-80 rounded-32 overflow-hidden">
           <img :src="article.thumbnail" alt="Blog Thumbnail" class="w-full h-full object-cover absolute z-0" />
@@ -65,9 +66,22 @@ useHead({
       </NuxtLink>
     </div>
   </main>
+  <Footer />
 </template>
 
-<style>
+<style scoped>
+.posts-grid > *:first-child {
+  grid-column: 1 / -1;
+}
+.posts-grid > *:first-child > div {
+  height: 500px;
+}
+.posts-grid > *:first-child h2 {
+  font-family: "Lexend", Arial, sans-serif;
+  font-size: 2.188rem;
+  font-weight: 500;
+  line-height: 120%;
+}
 .posts-grid {
   display: grid;
   /* always 3 columns of equal width */

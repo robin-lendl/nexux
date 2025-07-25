@@ -28,6 +28,12 @@
     --rounded-16: 16px;
     --rounded-8: 8px;
 }
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    background-color: var(--bg-neutral-80);
+}
 .cta-wrapper{
     position: relative;
     width: 100%;
@@ -75,10 +81,12 @@
     border-radius: var(--rounded-8);
 
     font-family: "Lexend", Arial, sans-serif;
-       font-size: 0.75rem;
+    font-size: 0.75rem;
+    color: var(text-body);
+    white-space: nowrap;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 100%;
     text-decoration: none;
     cursor: pointer;
@@ -92,6 +100,19 @@
     background: var(--btn-100-transparent);
     color: var(--text-white);
 }
+.btn-nav{
+  color: var(--text-white);
+}
+.btn-nav:hover{
+    background: var(--btn-100-transparent);
+  
+}
+.bg-dark{
+    background: var(--bg-neutral-20);
+}
+.bg-80{
+    background: var(--bg-neutral-80);
+}
 .gradient-blog {
   background: linear-gradient(180deg, rgba(0, 78, 152, 0) 0%, rgba(0, 78, 152, 0.8) 60%);
 }
@@ -104,11 +125,14 @@
 .rounded-8{
     border-radius: var(--rounded-8);
 }
-html{
-    font-size: 16px;
-    scroll-behavior: smooth;
-    min-height: 100vh;
-    background-color: var(--bg-neutral-20);
+.text-body{
+    color: var(--text-body);
+}
+.text-dark{
+    color: var(--text);
+}
+.text-brand{
+    color: var(--text-brand);
 }
 p{
   font-family: 'Lexend';
@@ -119,6 +143,7 @@ p{
 
     line-height: 150%;
 }
+
 h4{
     font-family: "Lexend", Arial, sans-serif;
     font-size: 1.375rem;
@@ -147,10 +172,10 @@ h4{
     text-decoration: none;
 }
 .markdown{
-    color: var(--text-white);
+    color: var(--text-body);
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 
@@ -160,7 +185,7 @@ h4{
     font-weight: 300;
     line-height: 120%;
 
- color: var(--text-white);
+ color: var(--text);
 }
 
 .markdown h2 {
@@ -168,9 +193,9 @@ h4{
     font-size: 2.188rem;
     font-weight: 500;
     line-height: 120%;
-    margin-top: 4rem;
+    margin: 4rem 0 .5rem 0;
 
- color: var(--text-white);
+ color: var(--text);
 }
 
 .markdown h3 {
@@ -178,9 +203,9 @@ h4{
     font-size: 1.375rem;
     font-weight: 300;
     line-height: 120%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 
- color: var(--text-white);
+ color: var(--text-body);
 }
 
 .markdown h4 {
@@ -189,7 +214,7 @@ h4{
     font-weight: 400;
     line-height: 120%;
 
- color: var(--text-white);
+ color: var(--text);
 }
 
 .markdown h5 {
@@ -200,16 +225,19 @@ h4{
     line-height: 100%;
     text-decoration: none;
 
- color: var(--text-white);
+ color: var(--text-body);
 }
 .markdown p{
- color: var(--text-80);
+ color: var(--text-body);
 }
 .markdown a {
-  color: var(--text-body);
+  color: var(--text-brand);
 }
-.markdown h1 a,.markdown h2 a,.markdown h3 a,.markdown h4 a,.markdown h5 a {
- color:var(--text-white)
+.markdown h1 a,.markdown h2 a{
+ color:var(--text)
+}
+.markdown h5 a,.markdown h3 a,.markdown h4 a {
+  color: var(--text-body);
 }
 
 .markdown img {
@@ -228,13 +256,13 @@ h4{
 
 .markdown ol {
   list-style-type: decimal;
-  list-style-position: inside;
+  list-style-position: outside;
   margin: 0.75rem 0 0.75rem 1.5rem;
   padding: 0;
 }
 
 .markdown li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 

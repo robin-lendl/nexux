@@ -34,7 +34,6 @@ Here’s some more text with a [link to Nuxt](https://nuxt.com) and an image:
 ### Subheading Level 3
 
 **Beispielhafte Tools für Gamification im Unterricht:**
-::table-overflow
 
 | Tool       | Beschreibung                       | Geeignet für             |
 | ---------- | ---------------------------------- | ------------------------ |
@@ -44,7 +43,5 @@ Here’s some more text with a [link to Nuxt](https://nuxt.com) and an image:
 | Classcraft | Rollenspiel-Elemente im Unterricht | Projektunterricht, Teams |
 | Socrative  | Quiz- und Feedback-Tool            | Prüfungsvorbereitung     |
 | Duolingo   | Sprachlern-App mit Spielprinzipien | Fremdsprachen            |
-
-::
 
 ## Gamification und Differenzierung

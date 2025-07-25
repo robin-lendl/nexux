@@ -42,9 +42,10 @@ useHead({
 
 <template>
   <div v-if="pending">Loading posts…</div>
-  <main v-else class="min-w-80 max-w-350 mx-auto">
-    <article class="mx-4">
-      <div class="relative w-full h-100 rounded-32 overflow-hidden mb-8 mt-16">
+  <main v-else class="min-w-80 max-w-310 mx-auto">
+    <NavigationMain />
+    <article class="mx-4 pt-4">
+      <div class="relative w-full h-100 rounded-32 overflow-hidden">
         <img :src="page.thumbnail" alt="Blog Thumbnail" class="w-full h-full object-cover absolute z-0" />
         <div class="gradient-blog h-full flex flex-col justify-end gap-2 px-12 pb-12 text-white relative z-10">
           <time class="style-h5 pb-2" :datetime="page.publication_date.toString()">
@@ -53,10 +54,17 @@ useHead({
           <h1 class="style-h2">{{ page.title }}</h1>
         </div>
       </div>
-      <div class="max-w-200 mx-auto">
+      <div class="max-w-200 mx-auto py-16">
         <ContentRenderer class="markdown" :value="page" />
       </div>
     </article>
+    <a href="https://blog.agora-nachhilfe.de" class="btn text-body">Zur Übersicht</a>
   </main>
+  <div class="flex flex-col gap-4 py-16 w-full">
+    <div class="max-w-310 mx-auto">
+      <RelevantPosts />
+    </div>
+  </div>
+  <Footer />
 </template>
 <style></style>
