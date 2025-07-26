@@ -1,13 +1,13 @@
 ---
 title: "KI vs. Mensch: Wer bringt Schüler wirklich weiter?"
-description: "Ein Artikel über KI & Mensch"
-slug: "ki-mensch-wer-bringt-schueler-wirklich-weiter"
+description: "Erfahre, warum menschliche Begleitung in Zeiten digitaler Lernangebote unverzichtbar ist: Wie persönliche Nachhilfe Vertrauen, Motivation und individuelle Förderung ermöglicht, wo KI an ihre Grenzen stößt und wie die Kombination aus beidem das Lernen optimiert."
+slug: "1-ki-mensch-wer-bringt-schueler-wirklich-weiter"
 thumbnail: "/media/01.jpg"
 thumbnail_full: "/media/01-full.jpg"
 thumbnail_alt: "Roboter erklärt Schülern etwas an der Tafel"
-publication_date: "2025-07-25"
-meta_title: "Meta Title"
-meta_description: "Meta Des"
+publication_date: "2025-07-14"
+meta_title: "KI vs. Mensch: Wer bringt Schüler wirklich weiter?"
+meta_description: "Erfahre, warum menschliche Begleitung in Zeiten digitaler Lernangebote unverzichtbar ist: Wie persönliche Nachhilfe Vertrauen, Motivation und individuelle Förderung ermöglicht, wo KI an ihre Grenzen stößt und wie die Kombination aus beidem das Lernen optimiert."
 ---
 
 Nachhilfe ist ein bewährtes Mittel, um Schülerinnen und Schüler individuell zu fördern. Mit dem Aufkommen von Künstlicher Intelligenz (KI) haben sich viele neue Möglichkeiten ergeben. Lern-Apps, smarte Tutorensysteme und Chatbots sind heute für viele zugänglich. Doch trotz dieser technischen Entwicklungen bleibt klassische Nachhilfe durch echte Menschen wichtig. Warum das so ist, erklären wir in diesem Beitrag. Es geht dabei nicht nur um den schulischen Erfolg, sondern auch um das Lernen als ganzheitlichen Prozess, der Vertrauen, Kommunikation und soziale Interaktion beinhaltet.

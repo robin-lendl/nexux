@@ -1,18 +1,17 @@
 ---
 title: "Gamification im Unterricht: Macht Spielen klüger?"
-description: "Wie Gamification das lernen verändert"
-slug: "gamification-im-unterricht-macht-spielen-klueger"
+description: "Erfahre, wie Punkte, Level, Abzeichen und Missionen den Schulalltag spannender machen, die Motivation erhöhen und den Lernerfolg mit spielerischen Elementen fördern."
+slug: "3-gamification-im-unterricht-macht-spielen-klueger"
 thumbnail: "/media/03.jpg"
 thumbnail_full: "/media/03-full.jpg"
 thumbnail_alt: "Games auf einer Tafel"
 publication_date: "2025-07-18"
 
-meta_title: "Meta Title"
-meta_description: "Meta Des"
+meta_title: "Gamification im Unterricht: Macht Spielen klüger?"
+meta_description: "Erfahre, wie Punkte, Level, Abzeichen und Missionen den Schulalltag spannender machen, die Motivation erhöhen und den Lernerfolg mit spielerischen Elementen fördern."
 ---
 
-Spiele machen Spaß. Das weiß jedes Kind. Aber Spiele können noch mehr: Sie können beim Lernen helfen.
-Immer mehr Lehrkräfte setzen deshalb auf sogenannte Gamification im Unterricht. Dabei geht es nicht darum, einfach ein Computerspiel zu spielen. Vielmehr werden spieltypische Elemente in den Lernalltag eingebaut. Das können Punkte, Level, Abzeichen oder Wettbewerbe sein. Ziel ist es, die Motivation zu steigern und das Lernen interessanter zu machen.
+Spiele machen Spaß. Das weiß jedes Kind. Aber Spiele können noch mehr: Sie können beim Lernen helfen. Immer mehr Lehrkräfte setzen deshalb auf sogenannte Gamification im Unterricht.
 
 <div class="cta-wrapper">
     <img src="/media/cta.jpg" alt="CTA Nachhilfe anfragen" class="cta-img" />
@@ -21,6 +20,7 @@ Immer mehr Lehrkräfte setzen deshalb auf sogenannte Gamification im Unterricht.
         <a href="https://anfrage.agora-nachhilfe.de/" class="btn btn-white">Kostenlos anfragen</a>
     </div>
 </div>
+Dabei geht es nicht darum, einfach ein Computerspiel zu spielen. Vielmehr werden spieltypische Elemente in den Lernalltag eingebaut. Das können Punkte, Level, Abzeichen oder Wettbewerbe sein. Ziel ist es, die Motivation zu steigern und das Lernen interessanter zu machen.
 
 ## Was ist Gamification genau?
 

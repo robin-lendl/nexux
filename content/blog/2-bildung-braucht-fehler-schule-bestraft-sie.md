@@ -1,14 +1,14 @@
 ---
 title: "Bildung braucht Fehler. Schule bestraft sie."
-description: "Ein Beitrag zur Schule"
-slug: "bildung-braucht-fehler-schule-bestraft-sie"
+description: "Entdecke, warum Fehler essenziell fürs Lernen sind, wie Noten das Lernverhalten beeinflussen und welche alternativen Bewertungskonzepte Schüler fördern."
+slug: "2-bildung-braucht-fehler-schule-bestraft-sie"
 thumbnail: "/media/02.jpg"
 thumbnail_full: "/media/02-full.jpg"
 thumbnail_alt: "Kind am Tisch in einer Ecke"
-publication_date: "2025-07-23"
+publication_date: "2025-07-16"
 
-meta_title: "Meta Title"
-meta_description: "Meta Des"
+meta_title: "Bildung braucht Fehler. Schule bestraft sie."
+meta_description: "Entdecke, warum Fehler essenziell fürs Lernen sind, wie Noten das Lernverhalten beeinflussen und welche alternativen Bewertungskonzepte Schüler fördern."
 ---
 
 Fehler machen gehört zum Lernen dazu. Das weiß eigentlich jeder. Trotzdem fällt es vielen schwer, mit eigenen Fehlern umzugehen. Besonders in der Schule scheint ein Fehler oft ein Zeichen von Schwäche zu sein. Wer eine schlechte Note bekommt, hat versagt. Wer viele richtige Antworten schreibt, gilt als klug. Doch diese Sichtweise ist zu einfach und sogar gefährlich. Denn sie hindert viele daran, wirklich zu lernen. Und sie lässt wenig Raum für die individuelle Entwicklung jedes Kindes.

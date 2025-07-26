@@ -19,8 +19,8 @@ useSeoMeta(
     ogTitle: page.value.meta_title,
     description: page.value.description,
     ogDescription: page.value.meta_description,
-    ogImage: page.value.thumbnail,
-    twitterCard: page.value.thumbnail,
+    ogImage: page.value.thumbnail_full,
+    twitterCard: page.value.thumbnail_full,
 
     // robots
     // robots: "index, follow",
