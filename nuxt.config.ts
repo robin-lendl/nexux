@@ -32,10 +32,4 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  // sitemap: { sources: ['/api/urls'] },
-  nitro: {
-    prerender: {
-      routes: ['/sitemap.xml']
-    }
-  }
 })

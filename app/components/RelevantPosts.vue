@@ -4,7 +4,6 @@ const route = useRoute();
 const currentSlug = route.params.slug;
 const {
   data: posts,
-  refresh,
   pending,
   error,
 } = await useAsyncData("relevant-posts", () => {
