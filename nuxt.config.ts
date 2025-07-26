@@ -5,17 +5,16 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   app: {
     head: {
-      htmlAttrs: { lang: 'de' },
-      titleTemplate: '%s – Agora Blog',
-      meta: [
-        { name: 'description', content: 'Agora Blog - Nachhilfe finden und anbieten' },
-        { property: 'og:site_name', content: 'Agora Blog' },
-        { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: 'summary_large_image' }
-      ],
+      title: 'Agora Blog', // default fallback title
+      htmlAttrs: {
+        lang: 'de',
+      },
       link: [
-        { rel: 'canonical', href: 'https://blog.agora-nachhilfe.de' }
-      ]
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+      // update Nuxt defaults
+      charset: 'utf-16',
+      viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
     }
   },
   compatibilityDate: '2025-07-15',

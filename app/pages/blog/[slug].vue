@@ -12,32 +12,24 @@ if (!page.value || page.value.publication_date > todayISO) {
 }
 
 useHead({
-  title: page.value.title,
-  meta: [
-    { name: "description", content: page.value.description },
-    { property: "og:title", content: page.value.title },
-    { property: "og:site_name", content: page.value.title + " - Agora Blog" },
-    { property: "og:description", content: page.value.description },
-    { property: "og:image", content: page.value.thumbnail },
-    { name: "twitter:image", content: page.value.thumbnail },
-    { property: "og:type", content: "article" },
-    { name: "article:published_time", content: page.value.publication_date.toString() },
-  ],
-  link: [{ rel: "canonical", href: `https://your-domain.com${route.path}` }],
-  script: [
-    {
-      type: "application/ld+json",
-      children: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        headline: page.value.title,
-        datePublished: page.value.publication_date,
-        image: page.value.thumbnail,
-        description: page.value.description,
-      }),
-    },
-  ],
+  title: page.value.title + " - Agora Blog",
 });
+useSeoMeta(
+  {
+    ogTitle: page.value.meta_title,
+    description: page.value.description,
+    ogDescription: page.value.meta_description,
+    ogImage: page.value.thumbnail,
+    twitterCard: page.value.thumbnail,
+
+    // robots
+    // robots: "index, follow",
+
+    // additional head tags
+    link: [{ rel: "sitemap", type: "application/xml", href: "/sitemap.xml" }],
+  },
+  { priority: 1 }
+);
 </script>
 
 <template>

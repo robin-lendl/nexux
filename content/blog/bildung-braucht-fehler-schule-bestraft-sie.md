@@ -5,11 +5,19 @@ slug: "bildung-braucht-fehler-schule-bestraft-sie"
 thumbnail: "/media/02.jpeg"
 publication_date: "2025-07-23"
 
-meta-title:
-meta-description:
+meta_title: "Meta Title"
+meta_description: "Meta Des"
 ---
 
 Fehler machen gehört zum Lernen dazu. Das weiß eigentlich jeder. Trotzdem fällt es vielen schwer, mit eigenen Fehlern umzugehen. Besonders in der Schule scheint ein Fehler oft ein Zeichen von Schwäche zu sein. Wer eine schlechte Note bekommt, hat versagt. Wer viele richtige Antworten schreibt, gilt als klug. Doch diese Sichtweise ist zu einfach und sogar gefährlich. Denn sie hindert viele daran, wirklich zu lernen. Und sie lässt wenig Raum für die individuelle Entwicklung jedes Kindes.
+
+<div class="cta-wrapper">
+    <img src="/media/cta.jpg" alt="CTA Nachhilfe anfragen" class="cta-img" />
+    <div class="cta-content">
+        <div class="style-h4">Du suchst Nachhilfe?</div>
+        <a href="https://anfrage.agora-nachhilfe.de/" class="btn btn-white">Kostenlos anfragen</a>
+    </div>
+</div>
 
 Diese Haltung führt dazu, dass viele Kinder versuchen, Fehler um jeden Preis zu vermeiden. Sie wählen lieber den sicheren Weg, statt Neues auszuprobieren. Doch genau dieser Mut zum Experimentieren ist es, der das Lernen lebendig und nachhaltig macht. Wenn Lernen nur noch bedeutet, richtige Antworten zu geben, bleibt der eigentliche Sinn auf der Strecke: die Welt zu verstehen, Zusammenhänge zu entdecken und die eigene Denkweise weiterzuentwickeln. Kinder brauchen das Vertrauen, dass sie Fehler machen dürfen, ohne dafür verurteilt zu werden. Erst dann entwickeln sie die Freiheit, selbstständig zu denken.
 

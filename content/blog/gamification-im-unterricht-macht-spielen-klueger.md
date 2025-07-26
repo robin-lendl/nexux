@@ -4,6 +4,9 @@ description: "Wie Gamification das lernen verändert"
 slug: "gamification-im-unterricht-macht-spielen-klueger"
 thumbnail: "/media/03.jpeg"
 publication_date: "2025-07-18"
+
+meta_title: "Meta Title"
+meta_description: "Meta Des"
 ---
 
 Spiele machen Spaß. Das weiß jedes Kind. Aber Spiele können noch mehr: Sie können beim Lernen helfen.

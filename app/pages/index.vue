@@ -18,33 +18,25 @@ function formatGerman(raw) {
     year: "numeric",
   });
 }
-
 useHead({
-  title: "Agora Blog",
-  meta: [
-    { name: "description", content: "Agora Blog - Nachhilfe finden und anbieten" },
-    { property: "og:title", content: "Agora Blog" },
-    { property: "og:site_name", content: "Agora Blog" },
-    { property: "og:description", content: "Agora Blog - Nachhilfe finden und anbieten" },
-    { property: "og:image", content: "/media/cta.jpg" },
-    { name: "twitter:image", content: "/media/cta.jpg" },
-    { property: "og:type", content: "article" },
-  ],
-  // link: [{ rel: "canonical", href: `https://your-domain.com${route.path}` }],
-  // script: [
-  //   {
-  //     type: "application/ld+json",
-  //     children: JSON.stringify({
-  //       "@context": "https://schema.org",
-  //       "@type": "BlogPosting",
-  //       headline: page.value.title,
-  //       datePublished: page.value.publication_date,
-  //       image: page.value.thumbnail,
-  //       description: page.value.description,
-  //     }),
-  //   },
-  // ],
+  title: "Agora Blog - Nachhilfe finden und anbieten",
 });
+useSeoMeta(
+  {
+    ogTitle: "Agora Blog - Nachhilfe finden und anbieten",
+    description: "Agora Blog - Nachhilfe finden und anbieten",
+    ogDescription: "Agora Blog - Hier findest du den passenden Kontakt für jedes Fach. Nachhilfe finden und anbieten",
+    ogImage: "/media/main.jpg",
+    twitterCard: "/media/main.jpg",
+
+    // robots
+    // robots: "index, follow",
+
+    // additional head tags
+    link: [{ rel: "sitemap", type: "application/xml", href: "/sitemap.xml" }],
+  },
+  { priority: 1 }
+);
 </script>
 
 <template>
