@@ -38,7 +38,7 @@ useSeoMeta(
     <NavigationMain />
     <article class="mx-4 pt-4">
       <div class="relative w-full h-100 rounded-32 overflow-hidden">
-        <img :src="page.thumbnail" alt="Blog Thumbnail" class="w-full h-full object-cover absolute z-0" />
+        <img :src="page.thumbnail_full" :alt="thumbnail_alt" class="w-full h-full object-cover absolute z-0" />
         <div class="gradient-blog h-full flex flex-col justify-end gap-2 px-12 pb-12 text-white relative z-10">
           <time class="style-h5 pb-2" :datetime="page.publication_date.toString()">
             {{ new Date(page.publication_date).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) }}

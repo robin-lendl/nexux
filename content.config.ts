@@ -15,6 +15,8 @@ export default defineContentConfig({
                     slug: z.string(),
                     tags: z.array(z.string()),
                     thumbnail: z.string(),
+                    thumbnail_full: z.string(),
+                    thumbnail_alt: z.string(),
                     meta_title: z.string(),
                     meta_description: z.string(),
                     publication_date: z

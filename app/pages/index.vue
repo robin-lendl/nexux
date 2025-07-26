@@ -44,9 +44,9 @@ useSeoMeta(
   <main v-else class="max-w-310 m-auto">
     <NavigationMain />
     <div class="mx-4 pt-4 posts-grid">
-      <NuxtLink v-for="article in posts" :key="article.slug" :to="'/blog/' + article.slug" class="relative">
+      <NuxtLink v-for="(article, index) in posts" :key="article.slug" :to="'/blog/' + article.slug" class="relative">
         <div class="relative w-full h-80 rounded-32 overflow-hidden">
-          <img :src="article.thumbnail" alt="Blog Thumbnail" class="w-full h-full object-cover absolute z-0" />
+          <img :src="index === 0 ? article.thumbnail_full : article.thumbnail" alt="Blog Thumbnail" class="w-full h-full object-cover absolute z-0" />
           <div class="gradient-blog h-full flex flex-col justify-end gap-2 px-12 pb-12 text-white relative z-10">
             <time :datetime="new Date(article.publication_date).toISOString()">
               {{ formatGerman(article.publication_date) }}
