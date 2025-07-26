@@ -25,7 +25,7 @@ onUnmounted(() => {
 });
 </script>
 <template>
-  <header :class="['p-4 sticky top-0 z-200 transition-transform duration-500 ease-in-out', isNavOut ? 'nav-out' : 'nav-in']">
+  <nav :class="['p-4 sticky top-0 z-200 transition-transform duration-500 ease-in-out', isNavOut ? 'nav-out' : 'nav-in']">
     <div class="flex items-center justify-between gap-8 rounded-16 p-4 bg-dark">
       <a href="https://agora-nachhilfe.de/">
         <img src="/logo-name-light-agora-nachhilfe.svg" alt="Agora Nachhilfe Logo" class="h-8" />
@@ -37,7 +37,7 @@ onUnmounted(() => {
         <a class="btn btn-white" href="https://anfrage.agora-nachhilfe.de/">Nachhilfe anfragen</a>
       </div>
     </div>
-  </header>
+  </nav>
 </template>
 
 <style scoped>

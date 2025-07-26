@@ -2,7 +2,7 @@
 title: "Gamification im Unterricht: Macht Spielen klüger?"
 description: "Wie Gamification das lernen verändert"
 slug: "gamification-im-unterricht-macht-spielen-klueger"
-thumbnail: "/media/03.jpeg"
+thumbnail: "/media/03.png"
 publication_date: "2025-07-18"
 
 meta_title: "Meta Title"

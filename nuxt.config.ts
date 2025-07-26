@@ -13,8 +13,8 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       ],
       // update Nuxt defaults
-      charset: 'utf-16',
-      viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes',
     }
   },
   compatibilityDate: '2025-07-15',

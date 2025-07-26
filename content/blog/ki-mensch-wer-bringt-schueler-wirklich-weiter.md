@@ -2,7 +2,7 @@
 title: "KI vs. Mensch: Wer bringt Schüler wirklich weiter?"
 description: "Ein Artikel über KI & Mensch"
 slug: "ki-mensch-wer-bringt-schueler-wirklich-weiter"
-thumbnail: "/media/01.jpeg"
+thumbnail: "/media/01.png"
 publication_date: "2025-07-25"
 meta_title: "Meta Title"
 meta_description: "Meta Des"

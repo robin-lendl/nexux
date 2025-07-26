@@ -2,7 +2,7 @@
 title: "Bildung braucht Fehler. Schule bestraft sie."
 description: "Ein Beitrag zur Schule"
 slug: "bildung-braucht-fehler-schule-bestraft-sie"
-thumbnail: "/media/02.jpeg"
+thumbnail: "/media/02.png"
 publication_date: "2025-07-23"
 
 meta_title: "Meta Title"
