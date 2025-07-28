@@ -6,6 +6,11 @@ thumbnail: "/media/01.jpg"
 thumbnail_full: "/media/01-full.jpg"
 thumbnail_alt: "Roboter erklärt Schülern etwas an der Tafel"
 publication_date: "2025-07-14"
+
+tags:
+  - Figma
+  - Prototypen
+
 meta_title: "KI vs. Mensch: Wer bringt Schüler wirklich weiter?"
 meta_description: "Erfahre, warum menschliche Begleitung in Zeiten digitaler Lernangebote unverzichtbar ist: Wie persönliche Nachhilfe Vertrauen, Motivation und individuelle Förderung ermöglicht, wo KI an ihre Grenzen stößt und wie die Kombination aus beidem das Lernen optimiert."
 ---

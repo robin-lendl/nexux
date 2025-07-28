@@ -41,10 +41,11 @@ useSeoMeta(
           <div class="h-full flex flex-col justify-between gap-3 p-12 text-white relative z-10">
             <div class="flex w-full justify-between items-center">
               <AppTime :time="article.publication_date" :markNew="true" />
-              <div>
-                <div class="tag">Tag</div>
-                <div class="tag">Tag</div>
-              </div>
+              <ul class="flex gap-2 flex-wrap">
+                <li v-for="tag in article.tags" :key="tag" class="h-8 rounded-8 bg-transparent-10 flex justify-center items-center px-3 style-h6 text-white">
+                  {{ tag }}
+                </li>
+              </ul>
             </div>
             <div class="">
               <h2 class="style-h4 pb-2">{{ article.title }}</h2>

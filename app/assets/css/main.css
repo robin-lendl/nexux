@@ -20,6 +20,9 @@
     --state-solid: #00F4D3;
     --state-transparent: #00f4d380;
 
+    --bg-transparent-10: #ffffff10;
+    --bg-transparent-20: #ffffff20;
+
     --rounded-32: 32px;
     --rounded-16: 16px;
     --rounded-8: 8px;
@@ -113,6 +116,14 @@ html{
 .bg-80{
     background: var(--bg-neutral-80);
 }
+.bg-transparent-10{
+    background: var(--bg-transparent-10);
+}
+.bg-transparent-20{
+    background: var(--bg-transparent-20);
+}
+
+
 .gradient-blog {
   background: linear-gradient(180deg, rgba(0, 78, 152, 0) 0%, rgba(0, 78, 152, 0.8) 60%);
 }
@@ -186,13 +197,20 @@ h4{
 }
 .style-h5{
   font-family: "Space Mono", Arial, sans-serif;
-    letter-spacing: .1rem;
+  font-size: 0.875rem;
+    letter-spacing: .05rem;
     text-transform: uppercase;
     font-weight: 400;
     line-height: 100%;
     text-decoration: none;
 }
-
+.style-h6{
+  font-family: "Space Mono", Arial, sans-serif;
+    letter-spacing: .05rem;
+    font-weight: 300;
+    line-height: 100%;
+    text-decoration: none;
+}
 .markdown{
     color: var(--text-body);
     display: flex;

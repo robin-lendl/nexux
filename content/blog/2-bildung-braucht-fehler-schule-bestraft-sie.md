@@ -7,6 +7,10 @@ thumbnail_full: "/media/02-full.jpg"
 thumbnail_alt: "Kind am Tisch in einer Ecke"
 publication_date: "2025-07-27"
 
+tags:
+  - Figma
+  - Prototypen
+
 meta_title: "Bildung braucht Fehler. Schule bestraft sie."
 meta_description: "Entdecke, warum Fehler essenziell fürs Lernen sind, wie Noten das Lernverhalten beeinflussen und welche alternativen Bewertungskonzepte Schüler fördern."
 ---

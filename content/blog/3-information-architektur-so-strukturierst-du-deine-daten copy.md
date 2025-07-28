@@ -7,6 +7,10 @@ thumbnail_full: "/media/01-full.jpg"
 thumbnail_alt: "Games auf einer Tafel"
 publication_date: "2025-07-24"
 
+tags:
+  - Figma
+  - Prototypen
+
 meta_title: "Information Architektur - So strukturiertst du deine Daten"
 meta_description: "Erfahre, wie Punkte, Level, Abzeichen und Missionen den Schulalltag spannender machen, die Motivation erhöhen und den Lernerfolg mit spielerischen Elementen fördern."
 ---
