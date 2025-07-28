@@ -1,0 +1,335 @@
+@import "tailwindcss";
+
+
+:root{
+    --text: #ffffff;
+    --text-body: #eef1f6;
+    --text-brand: #00F4D3;
+    --text-disabled: #ffffff80;
+    --outline: #4760851a;
+
+    --btn-bg: #243042;
+    --btn-bg-active: #00f4d320;
+    --btn-text: #ffffff;
+    --btn-text-active: #00f4d3;
+   
+
+    --bg-neutral-10: #121821;
+    --bg-neutral-20: #243042;
+
+    --state-solid: #00F4D3;
+    --state-transparent: #00f4d380;
+
+    --rounded-32: 32px;
+    --rounded-16: 16px;
+    --rounded-8: 8px;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    background-color: var(--bg-neutral-20);
+}
+.cta-wrapper{
+    position: relative;
+    width: 100%;
+    border-radius: var(--rounded-32);
+    overflow: hidden;
+    margin: 2rem 0;
+}
+
+.cta-content{
+    background: rgba(0, 78, 152, 0.8);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+    padding: 3rem;
+    color: var(--text-white);
+    position: relative;
+    z-index: 10;
+}
+@media screen and (max-width: 640px) {
+    .cta-content{
+       flex-direction: column;
+       gap: 1rem;
+    }
+    .btn{
+        width: 100%;
+    }
+   
+}
+.cta-img{
+    width: 120%;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 1rem;
+    border-radius: var(--rounded-8);
+
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 100%;
+    text-decoration: none;
+    cursor: poSpace Mono;
+    transition: all 0.3s ease-in-out;
+}
+.btn-white{
+    background: var(--btn-neutral-100);
+    color: var(--text);
+}
+.btn-white:hover{
+    background: var(--btn-100-transparent);
+    color: var(--text-white);
+}
+.btn-nav{
+  color: var(--text-white);
+}
+.btn-nav:hover{
+    background: var(--btn-100-transparent);
+  
+}
+.btn-disabled{
+   color: var(--text-disabled);
+  
+}
+.bg-dark{
+    background: var(--bg-neutral-20);
+}
+.bg-80{
+    background: var(--bg-neutral-80);
+}
+.gradient-blog {
+  background: linear-gradient(180deg, rgba(0, 78, 152, 0) 0%, rgba(0, 78, 152, 0.8) 60%);
+}
+.rounded-32{
+    border-radius: var(--rounded-32);
+}
+.rounded-16{
+    border-radius: var(--rounded-16);
+}
+.rounded-8{
+    border-radius: var(--rounded-8);
+}
+.color-text-body{
+    color: var(--text-body);
+}
+.color-text{
+    color: var(--text);
+}
+.color-text-disabled{
+    color: var(--text-disabled);
+}
+.text-brand{
+    color: var(--text-brand);
+}
+p{
+  font-family: 'Poppins';
+    font-size: 1rem;
+
+        font-weight: 300;
+    line-height: 20px;
+
+    line-height: 150%;
+}
+h1{
+  font-family: "Poppins", Arial, sans-serif;
+    font-size: 2.188rem;
+    font-weight: 300;
+    line-height: 120%;
+}
+h2{
+  font-family: "Poppins", Arial, sans-serif;
+    font-size: 2.188rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+h3{
+   font-family: "Poppins", Arial, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 300;
+    line-height: 120%;
+    margin-top: 1.5rem;
+}
+h4{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+.style-h2{
+  font-family: "Poppins", Arial, sans-serif;
+    font-size: 2.188rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.style-h4{
+   font-family: "Poppins", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.style-h5{
+  font-family: "Space Mono", Arial, sans-serif;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.markdown{
+    color: var(--text-body);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.markdown h1 {
+  font-family: "Poppins", Arial, sans-serif;
+    font-size: 2.188rem;
+    font-weight: 300;
+    line-height: 120%;
+
+ color: var(--text);
+}
+
+.markdown h2 {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 2.188rem;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 4rem 0 .5rem 0;
+
+ color: var(--text);
+}
+
+.markdown h3 {
+   font-family: "Poppins", Arial, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 300;
+    line-height: 120%;
+    margin-top: 1.5rem;
+
+ color: var(--text-body);
+}
+
+.markdown h4 {
+   font-family: "Poppins", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120%;
+
+ color: var(--text);
+}
+
+.markdown h5 {
+    font-family: "Space Mono", Arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 100%;
+    text-decoration: none;
+
+ color: var(--text-body);
+}
+.markdown p{
+ color: var(--text-body);
+}
+.markdown a {
+  color: var(--text-brand);
+}
+.markdown h1 a,.markdown h2 a{
+ color:var(--text)
+}
+.markdown h5 a,.markdown h3 a,.markdown h4 a {
+  color: var(--text-body);
+}
+
+.markdown img {
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
+  border-radius: var(--rounded-16);
+}
+
+.markdown ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 0.75rem 0 0.75rem 1.5rem;
+  padding: 0;
+}
+
+.markdown ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin: 0.75rem 0 0.75rem 1.5rem;
+  padding: 0;
+}
+
+.markdown li {
+  margin-bottom: 0.75rem;
+}
+
+
+.markdown code {
+  background: var(--text-brand);
+  padding: 0.2em 0.2em;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+
+.markdown strong {
+  font-weight: 700;
+}
+
+.markdown table {
+  width: 100%;
+  background-color: var(--bg-transparent-10);
+  border-radius: var(--rounded-16);
+  margin: 1rem 0;
+}
+@media screen and (max-width: 991px) {
+    tableoverflow{
+        overflow: auto;
+    }
+    .markdown table {
+        min-width: 1200px;
+    }
+}
+
+.markdown th,
+.markdown td {
+  padding: 1.5rem 1.5rem;
+      text-align: justify;
+}
+
+.markdown blockquote {
+  border-left: 4px solid var(--color-white);
+  padding: 0.5rem 1rem;
+  background: var(--bg-transparent-5);
+  padding: 2rem;
+}
+aside {
+  border: 1px solid var(--outline);
+  background: var(--bg-transparent-5);
+  padding: 2rem;
+  border-radius: var(--rounded-16);
+}

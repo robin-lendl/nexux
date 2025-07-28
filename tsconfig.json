@@ -1,0 +1,25 @@
+// {
+//   // https://nuxt.com/docs/guide/concepts/typescript
+//   "files": [],
+//   "references": [
+//     {
+//       "path": "./.nuxt/tsconfig.app.json"
+//     },
+//     {
+//       "path": "./.nuxt/tsconfig.server.json"
+//     },
+//     {
+//       "path": "./.nuxt/tsconfig.shared.json"
+//     },
+//     {
+//       "path": "./.nuxt/tsconfig.node.json"
+//     }
+//   ],
+// }
+{
+  "extends": "./.nuxt/tsconfig.app.json",
+  "compilerOptions": {
+    "types": ["@nuxt/content"]
+  },
+  "include": ["nuxt.config.ts", "content.config.ts", "server/api/**/*.ts", ".nuxt/imports.d.ts", ".nuxt/schema"]
+}
